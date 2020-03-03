@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === "production") {
 }
 // Add routes, both API and view
 app.use(routes);
-app.use("/api/users", users);
+app.use("../routes/api/users", users);
 
 
 // Connect to the Mongo DB
