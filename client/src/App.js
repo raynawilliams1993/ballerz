@@ -57,15 +57,27 @@ class App extends React.Component {
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
+
+              {Auth.loggedIn ? (
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/Home">Team</Link>
                 <Link className="nav-link" to="/players">Players</Link>
                 <Link className="nav-link" to="/Fantasy">Fantasy Team</Link>
+
+          
+              </Nav>
+              ):(
+
+              <Nav className="ml-auto">
+
                 <Link className="nav-link" to="/signup">Sign Up</Link>
                 <Link className="nav-link" to="/login">Login</Link>
                 <Link className="nav-link" to="/profile">Profile</Link>
           
               </Nav>
+              )}
+
+
             </Navbar.Collapse>
           </Navbar>
           <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
