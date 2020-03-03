@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Navbar";
 
-import Players from "./components/pages/Players";
-import Team from "./components/pages/Team";
-import Fantasy from "./components/pages/Team";
-
+import Players from "./pages/Players";
+import Team from "./pages/Team";
+import Fantasy from "./pages/Team";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
 
@@ -21,15 +21,15 @@ class App extends React.Component {
         { title: "Players", path: "/players" },
         { title: "Fantasy", path: "/fantasy" }
       ],
-        team: {
+        Team: {
         title: "",
         subTitle: "",
         text: ""
       },
-        players: {
+        Players: {
         title: "",
       },
-        fantasy: {
+        Fantasy: {
         title: "", 
       }
     }
@@ -54,11 +54,11 @@ class App extends React.Component {
            </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Route path="/" exact render={()=> <Team title={this.state.team.title} subTitle={this.state.team} text={this.state.team} />} />
+        <Route path="/" exact render={()=> <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
         <Route path="/Players" exact render={()=> <Players title={this.state.Players.title} />} />
   
         <Route path="/Fantasy" exact render={()=> <Fantasy title={this.state.Fantasy.title} />} />
-           {/* <Footer/> */}
+           <Footer/>
         
       </Container>
   
