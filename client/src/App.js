@@ -1,45 +1,22 @@
 import React from 'react';
-import store from "./store";
+
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import jwt_decode from "jwt-decode";
-import setAuthToken from "./utils/setAuthToken";
-import { setCurrentUser, logoutUser } from "./actions/authActions";
+
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Navbar";
-import Landing from "./components/pages/Landing";
-import Register from "./components/Auth/Register";
-import Login from "./components/Auth/Login";
-import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
-import Dashboard from "./components/Dashboard/Dashboard";
+
+
 
 import Players from "./components/pages/Players";
 import Team from "./components/pages/Team";
-import Fantasy from "./components/pages/Fantasy";
-
-import { Provider } from "react-redux";
-
+import Fantasy from "./components/pages/Team";
+import Footer from "./components/Footer";
 
 
-// Check for token to keep user logged in
-if (localStorage.jwtToken) {
-  // Set auth token header auth
-  const token = localStorage.jwtToken;
-  setAuthToken(token);
-  // Decode token and get user info and exp
-  const decoded = jwt_decode(token);
-  // Set user and isAuthenticated
-  store.dispatch(setCurrentUser(decoded));
-  // Check for expired token
-  const currentTime = Date.now() / 1000; // to get in milliseconds
-  if (decoded.exp < currentTime) {
-    // Logout user
-    store.dispatch(logoutUser());
-    // Redirect to login
-    window.location.href = "./login";
-  }
-}
+
+
 class App extends React.Component {
 
   constructor(props) {
@@ -68,8 +45,7 @@ class App extends React.Component {
   render() {
 
     return (
-      <Provider store={store}>
-        <Router>
+          <Router>
           <Container className="p-o" fluid={true}>
 
             <Navbar className="border-bottom" bg="transparent" expand="lg">
@@ -82,25 +58,20 @@ class App extends React.Component {
                   <Link className="nav-link" to="/players">Players</Link>
                   <Link className="nav-link" to="/fantasy">Fantasy Team</Link>
 
-                </Nav>
+              </Nav>
               </Navbar.Collapse>
             </Navbar>
-            <Landing />
+        
             <Route path="/" exact render={() => <Team title={this.state.team.title} subTitle={this.state.team} text={this.state.team} />} />
             <Route path="/Players" exact render={() => <Players title={this.state.Players.title} />} />
             <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/register" component={Register} />
-            <Route exact path="/login" component={Login} />
-            <Switch>
-              <PrivateRoute exact path="/dashboard" component={Dashboard} />
-            </Switch>
-            {/* <Footer/> */}
+           
+            <Footer/>
 
           </Container>
 
         </Router>
-      </Provider>
+   
     );
   }
 }
