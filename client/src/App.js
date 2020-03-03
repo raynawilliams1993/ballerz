@@ -9,9 +9,9 @@ import Nav from "react-bootstrap/Navbar";
 
 
 
-import Players from "./components/pages/Players";
-import Team from "./components/pages/Team";
-import Fantasy from "./components/pages/Team";
+import Players from "./pages/Players";
+import Team from "./pages/Team";
+import Fantasy from "./pages/Team";
 import Footer from "./components/Footer";
 
 
