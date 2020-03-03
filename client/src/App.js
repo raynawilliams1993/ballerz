@@ -16,7 +16,6 @@ import Footer from "./components/Footer";
 
 
 
-
 class App extends React.Component {
 
   constructor(props) {
@@ -28,16 +27,16 @@ class App extends React.Component {
         { title: "Players", path: "/players" },
         { title: "Fantasy", path: "/fantasy" }
       ],
-      team: {
+        Team: {
         title: "",
         subTitle: "",
         text: ""
       },
-      players: {
+        Players: {
         title: "",
       },
-      fantasy: {
-        title: "",
+        Fantasy: {
+        title: "", 
       }
     }
   }
@@ -45,33 +44,31 @@ class App extends React.Component {
   render() {
 
     return (
-          <Router>
-          <Container className="p-o" fluid={true}>
-
-            <Navbar className="border-bottom" bg="transparent" expand="lg">
-              <Navbar.Brand>Ballers Yard</Navbar.Brand>
-
-              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-              <Navbar.Collapse id="navbar-toggle">
-                <Nav className="ml-auto">
-                  <Link className="nav-link" to="/">Team</Link>
-                  <Link className="nav-link" to="/players">Players</Link>
-                  <Link className="nav-link" to="/fantasy">Fantasy Team</Link>
-
-              </Nav>
-              </Navbar.Collapse>
-            </Navbar>
+      <Router>
+      <Container className="p-o" fluid={true}>
+  
+        <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar.Brand>Ballers Yard</Navbar.Brand>
+  
+          <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
+          <Navbar.Collapse id="navbar-toggle">
+           <Nav className="ml-auto">
+             <Link className="nav-link" to="/">Team</Link>
+             <Link className="nav-link" to="/players">Players</Link>
+             <Link className="nav-link" to="/fantasy">Fantasy Team</Link>
+  
+           </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+        <Route path="/" exact render={()=> <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
+        <Route path="/Players" exact render={()=> <Players title={this.state.Players.title} />} />
+  
+        <Route path="/Fantasy" exact render={()=> <Fantasy title={this.state.Fantasy.title} />} />
+           <Footer/>
         
-            <Route path="/" exact render={() => <Team title={this.state.team.title} subTitle={this.state.team} text={this.state.team} />} />
-            <Route path="/Players" exact render={() => <Players title={this.state.Players.title} />} />
-            <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
-           
-            <Footer/>
-
-          </Container>
-
-        </Router>
-   
+      </Container>
+  
+    </Router>
     );
   }
 }
