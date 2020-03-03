@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Container from "react-bootstrap/Container";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 import Navbar from "react-bootstrap/Navbar";
@@ -24,8 +24,8 @@ class App extends React.Component {
       title: `Ballers Yard`,
       headerLink: [
         { title: "Team", path: "/" },
-        { title: "Players", path: "/players" },
-        { title: "Fantasy", path: "/fantasy" }
+        { title: "Players", path: "/Players" },
+        { title: "Fantasy", path: "/Fantasy" }
       ],
         Team: {
         title: "",
@@ -54,13 +54,13 @@ class App extends React.Component {
           <Navbar.Collapse id="navbar-toggle">
            <Nav className="ml-auto">
              <Link className="nav-link" to="/">Team</Link>
-             <Link className="nav-link" to="/players">Players</Link>
-             <Link className="nav-link" to="/fantasy">Fantasy Team</Link>
+             <Link className="nav-link" to="/Players">Players</Link>
+             <Link className="nav-link" to="/Fantasy">Fantasy Team</Link>
   
            </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Route path="/" exact render={()=> <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
+        <Route path="/" exact render={()=> <Team title={this.state.Team.title} subTitle={this.state.Team} text={this.state.Team} />} />
         <Route path="/Players" exact render={()=> <Players title={this.state.Players.title} />} />
   
         <Route path="/Fantasy" exact render={()=> <Fantasy title={this.state.Fantasy.title} />} />
