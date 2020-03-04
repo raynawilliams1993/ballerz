@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Container from "react-bootstrap/Container";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route,Switch, Link } from "react-router-dom";
 
 
 import Navbar from "react-bootstrap/Navbar";
@@ -29,8 +29,8 @@ class App extends React.Component {
       title: `Ballers Yard`,
       headerLink: [
         { title: "Team", path: "/" },
-        { title: "Players", path: "/players" },
-        { title: "Fantasy", path: "/fantasy" }
+        { title: "Players", path: "/Players" },
+        { title: "Fantasy", path: "/Fantasy" }
       ],
       Team: {
         title: "",
@@ -53,7 +53,7 @@ class App extends React.Component {
         <Container className="p-o" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Ballers Yard</Navbar.Brand>
+            <Navbar.Brand>NBA ALL Star</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
