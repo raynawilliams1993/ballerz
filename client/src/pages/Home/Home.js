@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import { Button } from "reactstrap";
-import API from "../../Utils/API";
+import API from "../../utils/API";
 // import Joke from "../../components/Joke"
 // import "./Home.scss";
 
