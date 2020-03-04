@@ -10,7 +10,7 @@ import Nav from "react-bootstrap/Navbar";
 
 import Players from "./pages/Players";
 import Team from "./pages/Team";
-import Fantasy from "./pages/Team";
+import Fantasy from "./pages/Fantasy";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./pages/Home";
