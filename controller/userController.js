@@ -8,7 +8,6 @@ const session = require("express-session");
 const passport = require("passport");
 const logger = require("morgan");
 const flash = require('connect-flash');
-const bcrypt = require("bcryptjs");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
