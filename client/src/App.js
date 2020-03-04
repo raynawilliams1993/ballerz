@@ -16,7 +16,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Auth from "./pages/Auth";
-import NoMatch from "./pages/NoMatch/NoMatch";
+// import NoMatch from "./pages/NoMatch/NoMatch";
 
 
 
