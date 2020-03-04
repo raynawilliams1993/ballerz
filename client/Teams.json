@@ -1,6 +1,7 @@
 [
     {
       "teamId": 1,
+      "img": "https://stats.nba.com/media/img/teams/logos/ATL_logo.svg",
       "abbreviation": "ATL",
       "teamName": "Atlanta Hawks",
       "simpleName": "Hawks",
@@ -8,6 +9,7 @@
     },
     {
       "teamId": 2,
+      "img": "https://stats.nba.com/media/img/teams/logos/BOS_logo.svg",
       "abbreviation": "BOS",
       "teamName": "Boston Celtics",
       "simpleName": "Celtics",
@@ -15,6 +17,7 @@
     },
     {
       "teamId": 3,
+      "img": "https://stats.nba.com/media/img/teams/logos/BKN_logo.svg",
       "abbreviation": "BKN",
       "teamName": "Brooklyn Nets",
       "simpleName": "Nets",
@@ -22,6 +25,7 @@
     },
     {
       "teamId": 4,
+      "img": "https://stats.nba.com/media/img/teams/logos/CHA_logo.svg",
       "abbreviation": "CHA",
       "teamName": "Charlotte Hornets",
       "simpleName": "Hornets",
@@ -29,6 +33,7 @@
     },
     {
       "teamId": 5,
+      "img": "https://stats.nba.com/media/img/teams/logos/CHI_logo.svg",
       "abbreviation": "CHI",
       "teamName": "Chicago Bulls",
       "simpleName": "Bulls",
@@ -36,6 +41,7 @@
     },
     {
       "teamId": 6,
+      "img": "https://stats.nba.com/media/img/teams/logos/CLE_logo.svg",
       "abbreviation": "CLE",
       "teamName": "Cleveland Cavaliers",
       "simpleName": "Cavaliers",
@@ -43,6 +49,7 @@
     },
     {
       "teamId": 7,
+      "img": "https://stats.nba.com/media/img/teams/logos/DAL_logo.svg",
       "abbreviation": "DAL",
       "teamName": "Dallas Mavericks",
       "simpleName": "Mavericks",
@@ -50,6 +57,7 @@
     },
     {
       "teamId": 8,
+      "img": "https://stats.nba.com/media/img/teams/logos/DEN_logo.svg",
       "abbreviation": "DEN",
       "teamName": "Denver Nuggets",
       "simpleName": "Nuggets",
@@ -57,6 +65,7 @@
     },
     {
       "teamId": 9,
+      "img": "https://stats.nba.com/media/img/teams/logos/DET_logo.svg",
       "abbreviation": "DET",
       "teamName": "Detroit Pistons",
       "simpleName": "Pistons",
@@ -64,6 +73,7 @@
     },
     {
       "teamId": 10,
+      "img": "https://stats.nba.com/media/img/teams/logos/GSW_logo.svg",
       "abbreviation": "GSW",
       "teamName": "Golden State Warriors",
       "simpleName": "Warriors",
@@ -71,6 +81,7 @@
     },
     {
       "teamId": 11,
+      "img": "https://stats.nba.com/media/img/teams/logos/HOU_logo.svg",
       "abbreviation": "HOU",
       "teamName": "Houston Rockets",
       "simpleName": "Rockets",
@@ -78,6 +89,7 @@
     },
     {
       "teamId": 12,
+      "img": "https://stats.nba.com/media/img/teams/logos/IND_logo.svg",
       "abbreviation": "IND",
       "teamName": "Indiana Pacers",
       "simpleName": "Pacers",
@@ -85,6 +97,7 @@
     },
     {
       "teamId": 13,
+      "img": "https://stats.nba.com/media/img/teams/logos/LAC_logo.svg",
       "abbreviation": "LAC",
       "teamName": "Los Angeles Clippers",
       "simpleName": "Clippers",
@@ -92,6 +105,7 @@
     },
     {
       "teamId": 14,
+      "img": "https://stats.nba.com/media/img/teams/logos/LAL_logo.svg",
       "abbreviation": "LAL",
       "teamName": "Los Angeles Lakers",
       "simpleName": "Lakers",
@@ -99,6 +113,7 @@
     },
     {
       "teamId": 15,
+      "img": "https://stats.nba.com/media/img/teams/logos/MEM_logo.svg",
       "abbreviation": "MEM",
       "teamName": "Memphis Grizzlies",
       "simpleName": "Grizzlies",
@@ -106,6 +121,7 @@
     },
     {
       "teamId": 16,
+      "img": "https://stats.nba.com/media/img/teams/logos/MIA_logo.svg",
       "abbreviation": "MIA",
       "teamName": "Miami Heat",
       "simpleName": "Heat",
@@ -113,6 +129,7 @@
     },
     {
       "teamId": 17,
+      "img": "https://stats.nba.com/media/img/teams/logos/MIL_logo.svg",
       "abbreviation": "MIL",
       "teamName": "Milwaukee Bucks",
       "simpleName": "Bucks",
@@ -120,6 +137,7 @@
     },
     {
       "teamId": 18,
+      "img": "https://stats.nba.com/media/img/teams/logos/MIN_logo.svg",
       "abbreviation": "MIN",
       "teamName": "Minnesota Timberwolves",
       "simpleName": "Timberwolves",
@@ -127,6 +145,7 @@
     },
     {
       "teamId": 19,
+      "img": "https://stats.nba.com/media/img/teams/logos/NOP_logo.svg",
       "abbreviation": "NOP",
       "teamName": "New Orleans Pelicans",
       "simpleName": "Pelicans",
@@ -134,6 +153,7 @@
     },
     {
       "teamId": 20,
+      "img": "https://stats.nba.com/media/img/teams/logos/NYK_logo.svg",
       "abbreviation": "NYK",
       "teamName": "New York Knicks",
       "simpleName": "Knicks",
@@ -141,6 +161,7 @@
     },
     {
       "teamId": 21,
+      "img": "https://stats.nba.com/media/img/teams/logos/OKC_logo.svg",
       "abbreviation": "OKC",
       "teamName": "Oklahoma City Thunder",
       "simpleName": "Thunder",
@@ -148,6 +169,7 @@
     },
     {
       "teamId": 22,
+      "img": "https://stats.nba.com/media/img/teams/logos/ORL_logo.svg",
       "abbreviation": "ORL",
       "teamName": "Orlando Magic",
       "simpleName": "Magic",
@@ -155,6 +177,7 @@
     },
     {
       "teamId": 23,
+      "img": "https://stats.nba.com/media/img/teams/logos/PHI_logo.svg",
       "abbreviation": "PHI",
       "teamName": "Philadelphia 76ers",
       "simpleName": "76ers",
@@ -162,6 +185,7 @@
     },
     {
       "teamId": 24,
+      "img": "https://stats.nba.com/media/img/teams/logos/PHX_logo.svg",
       "abbreviation": "PHX",
       "teamName": "Phoenix Suns",
       "simpleName": "Suns",
@@ -169,6 +193,7 @@
     },
     {
       "teamId": 25,
+      "img": "https://stats.nba.com/media/img/teams/logos/POR_logo.svg",
       "abbreviation": "POR",
       "teamName": "Portland Trail Blazers",
       "simpleName": "Trail Blazers",
@@ -176,6 +201,7 @@
     },
     {
       "teamId": 26,
+      "img": "https://stats.nba.com/media/img/teams/logos/SAC_logo.svg",
       "abbreviation": "SAC",
       "teamName": "Sacramento Kings",
       "simpleName": "Kings",
@@ -183,6 +209,7 @@
     },
     {
       "teamId": 27,
+      "img": "https://stats.nba.com/media/img/teams/logos/SAS_logo.svg",
       "abbreviation": "SAS",
       "teamName": "San Antonio Spurs",
       "simpleName": "Spurs",
@@ -190,6 +217,7 @@
     },
     {
       "teamId": 28,
+      "img": "https://stats.nba.com/media/img/teams/logos/TOR_logo.svg",
       "abbreviation": "TOR",
       "teamName": "Toronto Raptors",
       "simpleName": "Raptors",
@@ -197,6 +225,7 @@
     },
     {
       "teamId": 29,
+      "img": "https://stats.nba.com/media/img/teams/logos/UTA_logo.svg",
       "abbreviation": "UTA",
       "teamName": "Utah Jazz",
       "simpleName": "Jazz",
@@ -204,6 +233,7 @@
     },
     {
       "teamId": 30,
+      "img": "https://stats.nba.com/media/img/teams/logos/WAS_logo.svg",
       "abbreviation": "WAS",
       "teamName": "Washington Wizards",
       "simpleName": "Wizards",
