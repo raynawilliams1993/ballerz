@@ -53,7 +53,7 @@ class App extends React.Component {
         <Container className="p-o" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Ballers Yard</Navbar.Brand>
+            <Navbar.Brand>NBA ALL Star</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
