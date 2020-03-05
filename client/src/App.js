@@ -20,9 +20,6 @@ import Auth from "./pages/Auth";
 // import NoMatch from "./pages/NoMatch/NoMatch";
 import Hero from "./components/Hero/Hero";
 
-
-
-
 class App extends React.Component {
 
   constructor(props) {
