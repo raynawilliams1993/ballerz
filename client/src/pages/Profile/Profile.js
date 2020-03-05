@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 // import "./Profile.scss";
-import { Button } from "reactstrap";
+import { Button, Navbar } from "reactstrap";
 import { Link } from "react-router-dom"
 import API from "../../utils/API";
 
@@ -54,8 +54,16 @@ class Profile extends Component {
                         ) : (
                             <img id="loadingIcon" src="./assets/images/loading.gif" alt="loading"/>
                         )}
+
                     </div> 
                 )}
+                <Navbar>
+
+                 <Link className="nav-link" to="/Home">Team</Link>
+                  <Link className="nav-link" to="/players">Players</Link>
+                  <Link className="nav-link" to="/Fantasy">Fantasy Team</Link>
+                </Navbar>
+                
             </div>
         )
     }

@@ -1,11 +1,13 @@
 import React from 'react';
 
 import Container from "react-bootstrap/Container";
-import { BrowserRouter as Router, Route,Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Navbar";
+import form from "react-bootstrap/Form"
+
 
 
 import Players from "./pages/Players";
@@ -60,44 +62,43 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
 
               {Auth.loggedIn ? (
-              <Nav className="ml-auto">
-                <Link className="nav-link" to="/Home">Team</Link>
-                <Link className="nav-link" to="/players">Players</Link>
-                <Link className="nav-link" to="/Fantasy">Fantasy Team</Link>
+                <Nav className="ml-auto">
 
-          
+                 
+                  
               </Nav>
-              ):(
-
+                  ):(
+    
               <Nav className="ml-auto">
 
-                <Link className="nav-link" to="/signup">Sign Up</Link>
-                <Link className="nav-link" to="/login">Login</Link>
-                <Link className="nav-link" to="/profile">Profile</Link>
-          
-              </Nav>
-              )}
+                    <Link className="nav-link" to="/signup">Sign Up</Link>
+                    <Link className="nav-link" to="/login">Login</Link>
+                    {/* <Link className="nav-link" to="/profile">Profile</Link> */}
 
-
+                  </Nav>
+                  )}
+    
+    
             </Navbar.Collapse>
           </Navbar>
-          <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
-          <Route path="/Players" exact render={() => <Players title={this.state.Players.title} />} />
-          <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/signup" render={(props) => <Auth {...props} action="signup" />} />
-            <Route exact path="/login" render={(props) => <Auth {...props} action="login" />} />
-            <Route exact path="/profile" component={Profile} />
-         
-          </Switch>
-          <Footer />
+            <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
+            <Route path="/Players" exact render={() => <Players title={this.state.Players.title} />} />
+            <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
+
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/signup" render={(props) => <Auth {...props} action="signup" />} />
+              <Route exact path="/login" render={(props) => <Auth {...props} action="login" />} />
+              <Route exact path="/profile" component={Profile} />
+
+            </Switch>
+            <Footer />
 
         </Container>
 
       </Router>
-    );
-  }
-}
-
-export default App;
+        );
+      }
+    }
+    
+    export default App;
