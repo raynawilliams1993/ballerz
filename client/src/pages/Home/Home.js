@@ -15,7 +15,7 @@ class Home extends Component {
     this.loggedIn();
   }
 
-  
+
 
   loggedIn = () => {
     API.isLoggedIn().then(user => {
@@ -32,10 +32,7 @@ class Home extends Component {
   render() {
     return (
       <div className="homeBox">
-        {/* <Joke joke={this.state.joke}/>
-        {this.state.loggedIn ? (
-          <Button onClick={e=> {this.getJoke()}} color="warning" block>Get New Joke</Button>
-        ) : (<></>)} */}
+   
       </div>
     );
   }

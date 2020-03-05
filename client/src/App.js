@@ -2,11 +2,10 @@ import React from 'react';
 
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-
+import "reactstrap";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Navbar";
-import form from "react-bootstrap/Form"
 
 
 
@@ -19,7 +18,7 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Auth from "./pages/Auth";
 // import NoMatch from "./pages/NoMatch/NoMatch";
-
+import Hero from "./components/Hero/Hero";
 
 
 
@@ -53,8 +52,10 @@ class App extends React.Component {
 
     return (
       <Router>
+        
+      
         <Container className="p-o" fluid={true}>
-
+       
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>NBA ALL Star</Navbar.Brand>
 
@@ -92,6 +93,7 @@ class App extends React.Component {
               <Route exact path="/profile" component={Profile} />
 
             </Switch>
+            <Hero/>
             <Footer />
 
         </Container>
