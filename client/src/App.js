@@ -3,12 +3,8 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
-
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Navbar";
-import form from "react-bootstrap/Form"
-
-
 
 import Players from "./pages/Players";
 import Team from "./pages/Team";
@@ -19,9 +15,6 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Auth from "./pages/Auth";
 // import NoMatch from "./pages/NoMatch/NoMatch";
-
-
-
 
 
 class App extends React.Component {

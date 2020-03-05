@@ -2,241 +2,241 @@
     {
       "teamId": 1,
       "img": "https://stats.nba.com/media/img/teams/logos/ATL_logo.svg",
-      "abbreviation": "ATL",
-      "teamName": "Atlanta Hawks",
+      "ABRV": "ATL",
+      "team": "Atlanta Hawks",
       "simpleName": "Hawks",
-      "location": "Atlanta"
+      "city": "Atlanta"
     },
     {
       "teamId": 2,
       "img": "https://stats.nba.com/media/img/teams/logos/BOS_logo.svg",
-      "abbreviation": "BOS",
-      "teamName": "Boston Celtics",
+      "ABRV":"BOS",
+      "team": "Boston Celtics",
       "simpleName": "Celtics",
-      "location": "Boston"
+      "city": "Boston"
     },
     {
       "teamId": 3,
       "img": "https://stats.nba.com/media/img/teams/logos/BKN_logo.svg",
-      "abbreviation": "BKN",
-      "teamName": "Brooklyn Nets",
+      "ABRV": "BKN",
+      "team": "Brooklyn Nets",
       "simpleName": "Nets",
-      "location": "Brooklyn"
+      "city": "Brooklyn"
     },
     {
       "teamId": 4,
       "img": "https://stats.nba.com/media/img/teams/logos/CHA_logo.svg",
-      "abbreviation": "CHA",
-      "teamName": "Charlotte Hornets",
+      "ABRV": "CHA",
+      "team": "Charlotte Hornets",
       "simpleName": "Hornets",
-      "location": "Charlotte"
+      "city": "Charlotte"
     },
     {
       "teamId": 5,
       "img": "https://stats.nba.com/media/img/teams/logos/CHI_logo.svg",
-      "abbreviation": "CHI",
-      "teamName": "Chicago Bulls",
+      "ABRV": "CHI",
+      "team": "Chicago Bulls",
       "simpleName": "Bulls",
-      "location": "Chicago"
+      "city": "Chicago"
     },
     {
       "teamId": 6,
       "img": "https://stats.nba.com/media/img/teams/logos/CLE_logo.svg",
-      "abbreviation": "CLE",
-      "teamName": "Cleveland Cavaliers",
+      "ABRV": "CLE",
+      "team": "Cleveland Cavaliers",
       "simpleName": "Cavaliers",
-      "location": "Cleveland"
+      "city": "Cleveland"
     },
     {
       "teamId": 7,
       "img": "https://stats.nba.com/media/img/teams/logos/DAL_logo.svg",
-      "abbreviation": "DAL",
-      "teamName": "Dallas Mavericks",
+      "ABRV": "DAL",
+      "team": "Dallas Mavericks",
       "simpleName": "Mavericks",
-      "location": "Dallas"
+      "city": "Dallas"
     },
     {
       "teamId": 8,
       "img": "https://stats.nba.com/media/img/teams/logos/DEN_logo.svg",
-      "abbreviation": "DEN",
-      "teamName": "Denver Nuggets",
+      "ABRV": "DEN",
+      "team": "Denver Nuggets",
       "simpleName": "Nuggets",
-      "location": "Denver"
+      "city": "Denver"
     },
     {
       "teamId": 9,
       "img": "https://stats.nba.com/media/img/teams/logos/DET_logo.svg",
-      "abbreviation": "DET",
-      "teamName": "Detroit Pistons",
+      "ABRV": "DET",
+      "team": "Detroit Pistons",
       "simpleName": "Pistons",
-      "location": "Detroit"
+      "city": "Detroit"
     },
     {
       "teamId": 10,
       "img": "https://stats.nba.com/media/img/teams/logos/GSW_logo.svg",
-      "abbreviation": "GSW",
-      "teamName": "Golden State Warriors",
+      "ABRV": "GSW",
+      "team": "Golden State Warriors",
       "simpleName": "Warriors",
-      "location": "Golden State"
+      "city": "Golden State"
     },
     {
       "teamId": 11,
       "img": "https://stats.nba.com/media/img/teams/logos/HOU_logo.svg",
-      "abbreviation": "HOU",
-      "teamName": "Houston Rockets",
+      "ABRV": "HOU",
+      "team": "Houston Rockets",
       "simpleName": "Rockets",
-      "location": "Houston"
+      "city": "Houston"
     },
     {
       "teamId": 12,
       "img": "https://stats.nba.com/media/img/teams/logos/IND_logo.svg",
-      "abbreviation": "IND",
-      "teamName": "Indiana Pacers",
+      "ABRV": "IND",
+      "team": "Indiana Pacers",
       "simpleName": "Pacers",
-      "location": "Indiana"
+      "city": "Indiana"
     },
     {
       "teamId": 13,
       "img": "https://stats.nba.com/media/img/teams/logos/LAC_logo.svg",
-      "abbreviation": "LAC",
-      "teamName": "Los Angeles Clippers",
+      "ABRV": "LAC",
+      "team": "Los Angeles Clippers",
       "simpleName": "Clippers",
-      "location": "Los Angeles"
+      "city": "Los Angeles"
     },
     {
       "teamId": 14,
       "img": "https://stats.nba.com/media/img/teams/logos/LAL_logo.svg",
-      "abbreviation": "LAL",
-      "teamName": "Los Angeles Lakers",
+      "ABRV": "LAL",
+      "team": "Los Angeles Lakers",
       "simpleName": "Lakers",
-      "location": "Los Angeles"
+      "city": "Los Angeles"
     },
     {
       "teamId": 15,
       "img": "https://stats.nba.com/media/img/teams/logos/MEM_logo.svg",
-      "abbreviation": "MEM",
-      "teamName": "Memphis Grizzlies",
+      "ABRV": "MEM",
+      "team": "Memphis Grizzlies",
       "simpleName": "Grizzlies",
-      "location": "Memphis"
+      "city": "Memphis"
     },
     {
       "teamId": 16,
       "img": "https://stats.nba.com/media/img/teams/logos/MIA_logo.svg",
-      "abbreviation": "MIA",
-      "teamName": "Miami Heat",
+      "ABRV": "MIA",
+      "team": "Miami Heat",
       "simpleName": "Heat",
-      "location": "Miami"
+      "city": "Miami"
     },
     {
       "teamId": 17,
       "img": "https://stats.nba.com/media/img/teams/logos/MIL_logo.svg",
-      "abbreviation": "MIL",
-      "teamName": "Milwaukee Bucks",
+      "ABRV": "MIL",
+      "team": "Milwaukee Bucks",
       "simpleName": "Bucks",
-      "location": "Milwaukee"
+      "city": "Milwaukee"
     },
     {
       "teamId": 18,
       "img": "https://stats.nba.com/media/img/teams/logos/MIN_logo.svg",
-      "abbreviation": "MIN",
-      "teamName": "Minnesota Timberwolves",
+      "ABRV": "MIN",
+      "team": "Minnesota Timberwolves",
       "simpleName": "Timberwolves",
-      "location": "Minnesota"
+      "city": "Minnesota"
     },
     {
       "teamId": 19,
       "img": "https://stats.nba.com/media/img/teams/logos/NOP_logo.svg",
-      "abbreviation": "NOP",
-      "teamName": "New Orleans Pelicans",
+      "ABRV": "NOP",
+      "team": "New Orleans Pelicans",
       "simpleName": "Pelicans",
-      "location": "New Orleans"
+      "city": "New Orleans"
     },
     {
       "teamId": 20,
       "img": "https://stats.nba.com/media/img/teams/logos/NYK_logo.svg",
-      "abbreviation": "NYK",
-      "teamName": "New York Knicks",
+      "ABRV": "NYK",
+      "team": "New York Knicks",
       "simpleName": "Knicks",
-      "location": "New York"
+      "city": "New York"
     },
     {
       "teamId": 21,
       "img": "https://stats.nba.com/media/img/teams/logos/OKC_logo.svg",
-      "abbreviation": "OKC",
-      "teamName": "Oklahoma City Thunder",
+      "ABRV": "OKC",
+      "team": "Oklahoma City Thunder",
       "simpleName": "Thunder",
-      "location": "Oklahoma City"
+      "city": "Oklahoma City"
     },
     {
       "teamId": 22,
       "img": "https://stats.nba.com/media/img/teams/logos/ORL_logo.svg",
-      "abbreviation": "ORL",
-      "teamName": "Orlando Magic",
+      "ABRV": "ORL",
+      "team": "Orlando Magic",
       "simpleName": "Magic",
-      "location": "Orlando"
+      "city": "Orlando"
     },
     {
       "teamId": 23,
       "img": "https://stats.nba.com/media/img/teams/logos/PHI_logo.svg",
-      "abbreviation": "PHI",
-      "teamName": "Philadelphia 76ers",
+      "ABRV": "PHI",
+      "team": "Philadelphia 76ers",
       "simpleName": "76ers",
-      "location": "Philadelphia"
+      "city": "Philadelphia"
     },
     {
       "teamId": 24,
       "img": "https://stats.nba.com/media/img/teams/logos/PHX_logo.svg",
-      "abbreviation": "PHX",
-      "teamName": "Phoenix Suns",
+      "ABRV": "PHX",
+      "team": "Phoenix Suns",
       "simpleName": "Suns",
-      "location": "Phoenix"
+      "city": "Phoenix"
     },
     {
       "teamId": 25,
       "img": "https://stats.nba.com/media/img/teams/logos/POR_logo.svg",
-      "abbreviation": "POR",
-      "teamName": "Portland Trail Blazers",
+      "ABRV": "POR",
+      "team": "Portland Trail Blazers",
       "simpleName": "Trail Blazers",
-      "location": "Portland"
+      "city": "Portland"
     },
     {
       "teamId": 26,
       "img": "https://stats.nba.com/media/img/teams/logos/SAC_logo.svg",
-      "abbreviation": "SAC",
-      "teamName": "Sacramento Kings",
+      "ABRV": "SAC",
+      "team": "Sacramento Kings",
       "simpleName": "Kings",
-      "location": "Sacramento"
+      "city": "Sacramento"
     },
     {
       "teamId": 27,
       "img": "https://stats.nba.com/media/img/teams/logos/SAS_logo.svg",
-      "abbreviation": "SAS",
-      "teamName": "San Antonio Spurs",
+      "ABRV": "SAS",
+      "team": "San Antonio Spurs",
       "simpleName": "Spurs",
-      "location": "San Antonio"
+      "city": "San Antonio"
     },
     {
       "teamId": 28,
       "img": "https://stats.nba.com/media/img/teams/logos/TOR_logo.svg",
-      "abbreviation": "TOR",
-      "teamName": "Toronto Raptors",
+      "ABRV": "TOR",
+      "team": "Toronto Raptors",
       "simpleName": "Raptors",
-      "location": "Toronto"
+      "city": "Toronto"
     },
     {
       "teamId": 29,
       "img": "https://stats.nba.com/media/img/teams/logos/UTA_logo.svg",
-      "abbreviation": "UTA",
-      "teamName": "Utah Jazz",
+      "ABRV": "UTA",
+      "team": "Utah Jazz",
       "simpleName": "Jazz",
-      "location": "Utah"
+      "city": "Utah"
     },
     {
       "teamId": 30,
       "img": "https://stats.nba.com/media/img/teams/logos/WAS_logo.svg",
-      "abbreviation": "WAS",
-      "teamName": "Washington Wizards",
+      "ABRV": "WAS",
+      "team": "Washington Wizards",
       "simpleName": "Wizards",
-      "location": "Washington"
+      "city": "Washington"
     }
   ]
