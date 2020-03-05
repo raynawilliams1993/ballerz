@@ -65,7 +65,7 @@ class Profile extends Component {
                     <Link className="nav-link" to="/players">Players</Link>
                     <Link className="nav-link" to="/Fantasy">Fantasy Team</Link>
                 </Navbar>
-                {/* <Hero backgroundImage="https://d1l5jyrrh5eluf.cloudfront.net/wp-content/uploads/2018/02/top100_feature.jpg"></Hero> */}
+                <Hero backgroundImage="https://d1l5jyrrh5eluf.cloudfront.net/wp-content/uploads/2018/02/top100_feature.jpg"></Hero>
                 <Hero />
             </div>
         )
