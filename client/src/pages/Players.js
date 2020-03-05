@@ -1,8 +1,13 @@
 import React from "react";
+import PlayerCard from "../components/PlayerCard/PlayerCard";
 
-function Players () {
+function Players ({players}) {
     return(
-        <p>Players</p>
+        <div>
+            {players.map(player => (
+                <PlayerCard player={player}/>
+            ))}
+        </div>
     )
 }
 
