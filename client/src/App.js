@@ -21,6 +21,11 @@ import Auth from "./pages/Auth";
 import Hero from "./components/Hero/Hero";
 import players from "./components/CurrentYear.json";
 
+
+
+
+
+
 class App extends React.Component {
 
   constructor(props) {
@@ -39,12 +44,15 @@ class App extends React.Component {
         text: ""
       },
       players: players,
+    
       Fantasy: {
         title: "",
       },
         Players: {
         title: "",
-      }
+      },
+     
+      
     }
   }
 
@@ -85,6 +93,7 @@ class App extends React.Component {
             <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
             <Route path="/Players" exact render={() => <Players players={this.state.players} title={this.state.Players.title} />} />
             <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
+          
 
             <Switch>
               <Route exact path="/" component={Home} />
