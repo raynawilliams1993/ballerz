@@ -91,6 +91,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
             <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
+            </Hero>
             <Route path="/Players" exact render={() => <Players players={this.state.players} title={this.state.Players.title} />} />
             <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
           
@@ -102,7 +103,6 @@ class App extends React.Component {
               <Route exact path="/profile" component={Profile} />
 
             </Switch>
-            </Hero>
             <Footer />
 
         </Container>

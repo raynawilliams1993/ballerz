@@ -1,0 +1,9 @@
+.card{
+    background-color: rebeccapurple;
+    margin: 10px;
+    height: 25px 25px;
+    text-align: center;
+    font-weight: 600;
+    float: left;
+    padding: auto;
+}

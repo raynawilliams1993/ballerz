@@ -1,5 +1,6 @@
 import React from "react";
 import {Card} from "reactstrap";
+import "./style.css";
 
 
 function PlayerCard ({player}) {
@@ -83,7 +84,7 @@ function PlayerCard ({player}) {
                   </ul>
               </div>
           </div>
-            
+            <button>Select</button>
 
         </Card>
     )
