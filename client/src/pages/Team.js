@@ -9,7 +9,6 @@ function Team(props) {
                 <tr>
                     <th>Teamid</th>
                     <th>Img</th>
-
                     <th>ABRV</th>
                     <th>City</th>
                 </tr>
@@ -34,14 +33,3 @@ function Team(props) {
 }
 
 export default Team;
-{/* <tbody>
-{props.Teams.map(Teams =>(
-   
-        <td/
-  <span onClick={() => props.PastYear(props.id)} className="remove">
-    𝘅
-  </span>
-))}
-
-
-</tbody> */}
