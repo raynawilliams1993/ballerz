@@ -9,7 +9,6 @@ function Team(props) {
                 <tr>
                     <th>Teamid</th>
                     <th>Img</th>
-
                     <th>ABRV</th>
                     <th>City</th>
                 </tr>
