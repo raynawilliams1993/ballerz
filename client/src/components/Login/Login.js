@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Login(props) {
     return (
-        <div className="loginBox">
+        <div className="loginBox" color="black" >
             <h2 className="loginTitle title-font">Login</h2>
             <hr/>
             {props.message ? (

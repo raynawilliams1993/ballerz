@@ -4,7 +4,7 @@ import Teams from "../components/Teams.json"
 
 function Team(props) {
     return (
-        <Table>
+        <Table >
             <thead>
                 <tr>
                     <th>Teamid</th>
@@ -34,14 +34,3 @@ function Team(props) {
 }
 
 export default Team;
-{/* <tbody>
-{props.Teams.map(Teams =>(
-   
-        <td/
-  <span onClick={() => props.PastYear(props.id)} className="remove">
-    𝘅
-  </span>
-))}
-
-
-</tbody> */}
