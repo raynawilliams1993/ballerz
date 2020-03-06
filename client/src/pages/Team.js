@@ -4,7 +4,7 @@ import Teams from "../components/Teams.json"
 
 function Team(props) {
     return (
-        <Table >
+        <Table>
             <thead>
                 <tr>
                     <th>Teamid</th>
