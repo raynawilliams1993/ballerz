@@ -103,9 +103,9 @@ class App extends React.Component {
               <Route exact path="/profile" component={Profile} />
 
             </Switch>
-            <Footer />
 
         </Container>
+            <Footer />
 
       </Router>
         );
