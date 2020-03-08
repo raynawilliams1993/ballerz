@@ -83,8 +83,8 @@ function PlayerCard ({player}) {
                       </li>
                   </ul>
               </div>
-          </div>
             <button>Select</button>
+          </div>
 
         </Card>
     )
