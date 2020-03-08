@@ -3,10 +3,10 @@ import {Card} from "reactstrap";
 import "./style.css";
 
 
-function PlayerCard ({player}) {
+function FantasyCard ({player}) {
     return(
         <Card>
-          <div className="card" >
+          <div className="card">
               <div className="img-container">
                   <img alt={player.name} src={player.img} />
               </div>
@@ -83,15 +83,11 @@ function PlayerCard ({player}) {
                       </li>
                   </ul>
               </div>
-
           </div>
-        <button href="/Fantasy" onClick={e => this.handleClick(e)}>Add Player</button>
-
+            <button>Select</button>
 
         </Card>
     )
 }
 
-export default PlayerCard;
-
-
+export default FantasyCard;
