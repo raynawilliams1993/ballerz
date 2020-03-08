@@ -83,10 +83,10 @@ function PlayerCard ({player}) {
                       </li>
                   </ul>
               </div>
-
-          </div>
+           
         <button href="/Fantasy" onClick={e => this.handleClick(e)}>Add Player</button>
 
+          </div>
 
         </Card>
     )
