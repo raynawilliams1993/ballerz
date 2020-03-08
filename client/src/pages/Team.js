@@ -1,10 +1,10 @@
 import React from "react";
 import { Table } from "reactstrap"
-import Teams from "../components/Teams.json"
+import Teams from "../components/Teams.json";
 
 function Team(props) {
     return (
-        <Table>
+        <Table >
             <thead>
                 <tr>
                     <th>Teamid</th>
