@@ -65,7 +65,7 @@ class App extends React.Component {
         <Container className="p-o" fluid={true}>
           <Hero backgroundImage="https://d1l5jyrrh5eluf.cloudfront.net/wp-content/uploads/2018/02/top100_feature.jpg">
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>NBA ALL Star</Navbar.Brand>
+            <Navbar.Brand  >NBA ALL Star</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -78,7 +78,7 @@ class App extends React.Component {
               </Nav>
                   ):(
     
-              <Nav className="ml-auto">
+              <Nav className="ml-auto" color="white" >
 
                     <Link className="nav-link" to="/signup">Sign Up</Link>
                     <Link className="nav-link" to="/login">Login</Link>

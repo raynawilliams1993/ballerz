@@ -6,7 +6,7 @@ import "./style.css";
 function PlayerCard ({player}) {
     return(
         <Card>
-          <div className="card">
+          <div className="card" >
               <div className="img-container">
                   <img alt={player.name} src={player.img} />
               </div>
