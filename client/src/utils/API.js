@@ -25,7 +25,17 @@ export default {
   logout: function() {
     return axios.get("/api/users/logout")
   },
-
+  
+  roster: function(playerInfo) {
+    return axios.put("/api/users/roster", playerInfo)
+  },
  
+  rosterPop: function() {
+    return axios.get("/api/users/rosterPop")
+  },
+
+  rosterDel: function(playerInfo) {
+    return axios.delete("/api/users/rosterDel", playerInfo)
+  }
 
 };

@@ -26,7 +26,77 @@ const usersSchema = new Schema({
       },
       id: {
         type: Number
+      },
+      name: {
+        type: String
+      },
+      team: {
+        type: String
+      },
+      age: {
+        type: Number
+      },
+      min: {
+        type: Number
+      }, 
+      pts: {
+        type: Number
+      },
+      fgm: {
+        type: Number
+      },
+      fga: {
+        type: Number
+      },
+      fg: {
+        type: Number
+      },
+      threep: {
+        type: Number
+      },
+      threepav: {
+        type: Number
+      },
+      three: {
+        type: String
+      },
+      ftm: {
+        type: Number
+      },
+      fta: {
+        type: String
+      },
+      ft: {
+        type: String
+      },
+      oreb: {
+        type: Number
+      },
+      dreb: {
+        type: Number
+      }, 
+      reb: {
+        type: Number
+      },
+      ast: {
+        type: Number
+      },
+      tov: {
+        type: Number
+      },
+      tov: {
+        type: Number
+      },
+      blk: {
+        type: Number
+      },
+      pf: {
+        type: Number
+      },
+      fp: {
+        type: Number
       }
+      
     }
   ],
   admin: {
