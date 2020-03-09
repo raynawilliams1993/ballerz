@@ -13,12 +13,7 @@ function PlayerCard({ player, handleClick }) {
                 </div>
                 <div className="content">
                     <ul>
-                        <li>
-                            <strong>id:</strong> {player.id}
-                        </li>
-                        <li>
-                            <strong>key:</strong> {player.id}
-                        </li>
+                        
                         <li>
                             <strong>Name:</strong> {player.name}
                         </li>
@@ -91,7 +86,7 @@ function PlayerCard({ player, handleClick }) {
                     </ul>
                 </div>
 
-                <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a>
+                {/* <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a> */}
 
 
                 <a href="/Fantasy" onClick={e => handleClick(e, player.id)}>Add Player</a>

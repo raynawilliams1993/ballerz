@@ -19,6 +19,16 @@ const usersSchema = new Schema({
     },
     required: [true, "password is required"]
   },
+  roster: [
+     {
+      img: {
+        type: String
+      },
+      id: {
+        type: Number
+      }
+    }
+  ],
   admin: {
     type: Boolean,
     unique: false,
