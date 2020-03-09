@@ -2,14 +2,17 @@ import React from "react";
 import FantasyCard from "../components/FantasyCard/FantasyCard";
 
 
-function Fantasy ({Fantasy}) {
-    return(
+function Fantasy({fantasyPlayers}) {
+    return (
         <div>
-            {/* {Fantasy.map(fantasy => (
-                <FantasyCard fantasy={fantasy}/>
-            ))} */}
+        
+            {fantasyPlayers.map(player => (
+                <FantasyCard player={player}/>
+            ))}
         </div>
-       
+
+
+
     )
 }
 
