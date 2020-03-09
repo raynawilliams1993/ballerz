@@ -1,9 +1,15 @@
 import React from "react";
+import FantasyCard from "../components/FantasyCard/FantasyCard";
 
 
-function Fantasy () {
+function Fantasy ({Fantasy}) {
     return(
-        <p>Fantasy</p>
+        <div>
+            {/* {Fantasy.map(fantasy => (
+                <FantasyCard fantasy={fantasy}/>
+            ))} */}
+        </div>
+       
     )
 }
 
