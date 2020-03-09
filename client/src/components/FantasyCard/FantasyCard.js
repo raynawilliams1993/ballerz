@@ -1,9 +1,11 @@
 import React from "react";
 import {Card} from "reactstrap";
 import "./style.css";
+import BarChart from "../BarChart/BarChart"
 
 
 function FantasyCard ({player}) {
+  
     return(
         <Card>
           <div className="card">
@@ -21,7 +23,9 @@ function FantasyCard ({player}) {
                       <li>
                           <strong>Age:</strong> {player.age}
                       </li>
-                      <li>
+
+                      <BarChart player={player} />
+                      {/* <li>
                           <strong>Min:</strong> {player.min}
                       </li>
                       <li>
@@ -80,7 +84,7 @@ function FantasyCard ({player}) {
                       </li>
                       <li>
                           <strong>FP:</strong> {player.fp}
-                      </li>
+                      </li> */}
                   </ul>
               </div>
           </div>
