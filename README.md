@@ -20,3 +20,6 @@ On there you can see the current players you have selected, or you can delete or
 -MVC
 
 # PREVIEW OF FUNCTIONING APPLICATION:
+[Repository](https://github.com/raynawilliams1993/ballerz)
+[Heroku]()
+[GIF]()
