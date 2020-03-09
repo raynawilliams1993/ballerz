@@ -9,6 +9,9 @@ function Fantasy({fantasyPlayers}) {
                 <FantasyCard player={player}/>
             ))}
         </div>
+
+
+
     )
 }
 

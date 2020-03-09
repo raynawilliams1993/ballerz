@@ -5,6 +5,10 @@ import "./style.css";
 function PlayerCard({ player }) {
     return (
         <Card>
+<<<<<<< HEAD
+=======
+
+>>>>>>> c5ce69ca58f20d4d5c81292fdff37de7b9b9c196
             <div className="card" >
                 <div className="img-container">
                     <img alt={player.name} src={player.img} />
@@ -88,6 +92,11 @@ function PlayerCard({ player }) {
                         </li>
                     </ul>
                 </div>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c5ce69ca58f20d4d5c81292fdff37de7b9b9c196
 
                 <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a>
                 
