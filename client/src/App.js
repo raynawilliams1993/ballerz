@@ -88,8 +88,8 @@ class App extends React.Component {
                   
               </Nav>
                   ):(
-    
-              <Nav className="ml-auto" color="white" >
+                    
+                    <Nav className="ml-auto" color="white" >
 
                     <Link className="nav-link" to="/signup">Sign Up</Link>
                     <Link className="nav-link" to="/login">Login</Link>
@@ -101,11 +101,11 @@ class App extends React.Component {
     
             </Navbar.Collapse>
           </Navbar>
+                  </Hero>
             <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
             <Route path="/Players" exact render={() => <Players players={this.state.players} title={this.state.Players.title} />} />
             <Route path="/Fantasy" exact render={() => <Fantasy fantasyPlayers={this.state.players} title={this.state.Fantasy.title} />} />
           
-            </Hero>
 
             <Switch>
               <Route exact path="/" component={Home} />

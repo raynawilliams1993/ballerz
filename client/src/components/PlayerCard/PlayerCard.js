@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "reactstrap";
 import "./style.css";
 
-
 function PlayerCard({ player }) {
     return (
         <Card>
@@ -90,9 +89,8 @@ function PlayerCard({ player }) {
                     </ul>
                 </div>
 
-
                 <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a>
-
+                
             </div>
 
         </Card>
