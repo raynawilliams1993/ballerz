@@ -23,7 +23,7 @@ function Team(props) {
                         </td>
                         <td>{Teams.ABRV}</td>
                         <td>{Teams.city}</td>
-                        <button href="/Fantasy" onclick={e => this.handleClick(e)}>Add Team</button>
+                        <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Team</a>
                     </tr>
                 ))}
             </tbody>

@@ -91,9 +91,9 @@ function PlayerCard({ player }) {
                     </ul>
                 </div>
 
-
-
                 <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a>
+
+
 
             </div>
 

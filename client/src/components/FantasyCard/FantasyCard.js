@@ -84,8 +84,7 @@ function FantasyCard ({player}) {
                   </ul>
               </div>
           </div>
-            <button>Select</button>
-
+            
         </Card>
     )
 }
