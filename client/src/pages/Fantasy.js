@@ -1,6 +1,7 @@
 import React from "react";
 import FantasyCard from "../components/FantasyCard/FantasyCard";
 
+
 function Fantasy({fantasyPlayers}) {
     return (
         <div>
@@ -9,6 +10,9 @@ function Fantasy({fantasyPlayers}) {
                 <FantasyCard player={player}/>
             ))}
         </div>
+
+
+
     )
 }
 
