@@ -4,7 +4,7 @@ import "./style.css";
 import BarChart from "../BarChart/BarChart"
 
 
-function FantasyCard ({player}) {
+function FantasyCard ({player, handleDelete}) {
   
     return(
         <Card>
@@ -88,7 +88,8 @@ function FantasyCard ({player}) {
                   </ul>
               </div>
           </div>
-      
+
+          <a href="/Fantasy" onClick={e => handleDelete(e, player.id)}>Delete Player</a>
 
         </Card>
     )

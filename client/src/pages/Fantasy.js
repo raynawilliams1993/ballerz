@@ -3,13 +3,13 @@ import FantasyCard from "../components/FantasyCard/FantasyCard";
 
 
 
-function Fantasy({fantasyPlayers}) {
+function Fantasy({fantasyPlayers, handleDelete}) {
     return (
         <div>
             
         
             {fantasyPlayers.map(player => (
-                <FantasyCard player={player}/>
+                <FantasyCard handleDelete={handleDelete} player={player}/>
                 ))}
         </div>
 

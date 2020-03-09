@@ -4,11 +4,11 @@ import Plot from 'react-plotly.js';
 
 function BarChart ({player}) {
     // let player = Object.assign(c)
-    delete player.id
-    delete player.age
-    delete player.img
-    delete player.team
-    delete player.name
+    // delete player.id
+    // delete player.age
+    // delete player.img
+    // delete player.team
+    // delete player.name
 
     console.log(player)
  

@@ -20,7 +20,7 @@ import Auth from "./pages/Auth";
 // import NoMatch from "./pages/NoMatch/NoMatch";
 import Hero from "./components/Hero/Hero";
 import players from "./components/CurrentYear.json";
-
+import API from "./utils/API";
 
 
 
@@ -60,12 +60,35 @@ class App extends React.Component {
      
     } 
     }
+
+    componentDidMount = () => {
+      API.rosterPop().then((players, err)=>{
+        if (err) throw err;
+        this.setState({fantasyPlayers: players.data })
+        console.log(this.state.fantasyPlayers)
+      });
+    };
     
      handleClick = (e, id) => {
       e.preventDefault();
       const player = this.state.players.find(player => player.id === id);
-      
-      this.setState( {fantasyPlayers: [...this.state.fantasyPlayers, player ]});
+      API.roster(player).then((playerInfo, err) => {
+        if (err) throw err;
+        console.log(playerInfo);
+      })
+      // this.setState( {fantasyPlayers: [...this.state.fantasyPlayers, player ]});
+
+    };
+
+    handleDelete = (e, id) => {
+
+      const player = this.state.players.find(player => player.id === id);
+      API.rosterDel(player).then((playerInfo, err) => {
+        if (err) throw err;
+        console.log(playerInfo);
+      })
+      // this.setState( {fantasyPlayers: [...this.state.fantasyPlayers, player ]});
+
     };
   
   
@@ -107,7 +130,7 @@ class App extends React.Component {
                   </Hero>
             <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
             <Route path="/Players" exact render={() => <Players handleClick={this.handleClick} players={this.state.players} title={this.state.Players.title} />} />
-            <Route path="/Fantasy" exact render={() => <Fantasy fantasyPlayers={this.state.fantasyPlayers} title={this.state.Fantasy.title} />} />
+            <Route path="/Fantasy" exact render={() => <Fantasy handleDelete={this.handleDelete} fantasyPlayers={this.state.fantasyPlayers} title={this.state.Fantasy.title} />} />
           
 
             <Switch>

@@ -88,4 +88,32 @@ router.get("/user", authMiddleware.isLoggedIn, function(req, res, next) {
   });
 });
 
+router.put("/roster", authMiddleware.isLoggedIn, function (req, res) {
+  db.User.findByIdAndUpdate(req.user._id, 
+      {$push:{roster:req.body}} 
+    ).then((user) => {
+      res.json(user);
+    }).catch((err) => {
+      res.json(err);
+    });
+});
+
+router.get("/rosterPop", authMiddleware.isLoggedIn, function (req, res) {
+  db.User.findById(req.user._id).then((user) => {
+    res.json(user.roster);
+  }).catch((err) => {
+    res.json(err);
+  });
+});
+
+router.delete("/rosterDel", authMiddleware.isLoggedIn, function (req,res) {
+  db.User.findByIdAndUpdate(req.user._id, 
+    {$pull:{roster:req.body}} 
+  ).then((user) => {
+    res.json(user);
+  }).catch((err) => {
+    res.json(err);
+  });
+})
+
 module.exports = router;
