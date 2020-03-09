@@ -3,10 +3,10 @@ import { Card } from "reactstrap";
 import "./style.css";
 
 
-function PlayerCard({ player }) {
+
+function PlayerCard({ player, handleClick }) {
     return (
         <Card>
-
             <div className="card" >
                 <div className="img-container">
                     <img alt={player.name} src={player.img} />
@@ -93,8 +93,8 @@ function PlayerCard({ player }) {
 
 
 
-                <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a>
-
+                <a href="/Fantasy" onClick={e => handleClick(e, player.id)}>Add Player</a>
+                
             </div>
 
         </Card>
