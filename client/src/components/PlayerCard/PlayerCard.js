@@ -2,13 +2,11 @@ import React from "react";
 import { Card } from "reactstrap";
 import "./style.css";
 
-function PlayerCard({ player }) {
+
+
+function PlayerCard({ player, handleClick }) {
     return (
         <Card>
-<<<<<<< HEAD
-=======
-
->>>>>>> c5ce69ca58f20d4d5c81292fdff37de7b9b9c196
             <div className="card" >
                 <div className="img-container">
                     <img alt={player.name} src={player.img} />
@@ -92,13 +90,10 @@ function PlayerCard({ player }) {
                         </li>
                     </ul>
                 </div>
-<<<<<<< HEAD
-=======
 
 
->>>>>>> c5ce69ca58f20d4d5c81292fdff37de7b9b9c196
 
-                <a href="/Fantasy" onclick={e => this.handleClick(e)}>Add Player</a>
+                <a href="/Fantasy" onClick={e => handleClick(e, player.id)}>Add Player</a>
                 
             </div>
 
