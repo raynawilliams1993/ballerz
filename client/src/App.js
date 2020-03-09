@@ -44,17 +44,28 @@ class App extends React.Component {
         text: ""
       },
       players: players,
-    
+      
       Fantasy: {
         title: "",
       },
-        Players: {
+      Players: {
         title: "",
       },
+      player: "",
+    
+      
      
       
     }
   }
+  
+  handleClick = id => {
+   
+    const players = this.state.players.filter(player => player.id !== id);
+   
+    this.setState({ players });
+  };
+  
 
   render() {
 
@@ -92,7 +103,7 @@ class App extends React.Component {
           </Navbar>
             <Route path="/Home" exact render={() => <Team title={this.state.Team.title} subTitle={this.state.team} text={this.state.Team} />} />
             <Route path="/Players" exact render={() => <Players players={this.state.players} title={this.state.Players.title} />} />
-            <Route path="/Fantasy" exact render={() => <Fantasy title={this.state.Fantasy.title} />} />
+            <Route path="/Fantasy" exact render={() => <Fantasy fantasyPlayers={this.state.players} title={this.state.Fantasy.title} />} />
           
             </Hero>
 
